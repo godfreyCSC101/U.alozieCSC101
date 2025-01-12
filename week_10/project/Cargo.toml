@@ -1,0 +1,11 @@
+struct Laptop {
+    brand: String,
+    cost_per_unit: u64,
+    quantity_available: u64,
+}
+
+impl Laptop {
+    ope
+    fn calculate_total_cost(&self, quantity_to_purchase: u64) -> u64 {
+        self.cost_per_unit * quantity_to_purchase
+    }
